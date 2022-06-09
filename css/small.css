@@ -10,20 +10,17 @@ body {
 header {
   height: 55px;
   display: flex;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
-
 header .head01 {
-  -family: serif,sans-serif;
+  -family: serif, sans-serif;
   margin-top: 15px;
 }
-
 header .head01 h1 {
   font-size: 15px;
 }
-
 header .head02 img {
   width: 15px;
   margin-top: 4px;
   margin-right: 25px;
-}
+}/*# sourceMappingURL=small.css.map */
