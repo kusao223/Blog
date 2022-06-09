@@ -1,3 +1,5 @@
+// iPad,Tablet
+
 @import "small";
 @import "midium";
 
@@ -10,7 +12,6 @@ body,h1,h2,h3,h4,p,img,ul,li{
     padding: 0;
 }
 body{
-    
     width: 100%;
     background-color: $color01;
 }
@@ -20,13 +21,14 @@ header{
     display: flex;
     background-color: rgb(255, 255, 255);
     .head01{
-        font-family: serif,sans-serif;
-        // margin-top: 15px;
-        // margin-left: 2em;
+        -family: serif,sans-serif;
+        margin-top: 15px;
+        margin-left: 2em;
     }
     .head02{
         margin-top: 15px;
         margin-left: auto;
+        margin-right: em;
         img{
             width: 3em;
            margin-right: 5em;
