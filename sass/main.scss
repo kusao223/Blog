@@ -1,8 +1,5 @@
-@import "small";
 @import "midium";
-
-// PC
-
+@import "small";
 $color01:rgb(255, 247, 0);
 
 body,h1,h2,h3,h4,p,img,ul,li{
@@ -21,8 +18,8 @@ header{
     background-color: rgb(255, 255, 255);
     .head01{
         font-family: serif,sans-serif;
-        // margin-top: 15px;
-        // margin-left: 2em;
+        margin-top: 15px;
+        margin-left: 2em;
     }
     .head02{
         margin-top: 15px;
