@@ -27,11 +27,6 @@ header .head02 img {
   margin-right: 5em;
 }
 
-@media screen and (max-width: 1024px) {
-  .head01 h1 {
-    font-size: 50%;
-  }
-}
 @media screen and (max-width: 480px) {
   .head01 h1 {
     font-size: 15px;
