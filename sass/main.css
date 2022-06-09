@@ -5,25 +5,35 @@ body, h1, h2, h3, h4, p, img, ul, li {
 
 body {
   width: 100%;
-  background-color: #fff700;
+  background-color: rgb(255, 247, 0);
 }
 
 header {
   height: 80px;
   display: flex;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
-
 header .head01 {
-  font-family: serif,sans-serif;
+  font-family: serif, sans-serif;
+  margin-top: 15px;
+  margin-left: 2em;
 }
-
 header .head02 {
   margin-top: 15px;
   margin-left: auto;
 }
-
 header .head02 img {
   width: 3em;
   margin-right: 5em;
 }
+
+@media screen and (max-width: 1024px) {
+  .head01 h1 {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .head01 h1 {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=main.css.map */

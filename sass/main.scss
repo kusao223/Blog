@@ -1,13 +1,10 @@
-@import "midium";
-@import "small";
 $color01:rgb(255, 247, 0);
 
 body,h1,h2,h3,h4,p,img,ul,li{
     margin: 0;
     padding: 0;
 }
-body{
-    
+body{    
     width: 100%;
     background-color: $color01;
 }
@@ -29,5 +26,24 @@ header{
            margin-right: 5em;
         }
         
+    }
+}
+
+// iPad,Tablet
+@media screen and (max-width:1024px) {
+    .head01{
+        h1{
+        font-size: 50%;
+        }
+    }
+}
+
+
+// iPhone
+@media screen and (max-width:480px){
+    .head01{
+        h1{
+            font-size: 15px;
+        }
     }
 }
