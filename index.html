@@ -10,15 +10,36 @@
 <body>
     <header>
         <div class="head01">
-            <h1>Titile</h1>
+            <img src="./image/title.jpg" alt="">
         </div>
+
         <div class="head02">
-            <ul>
-                <a href=""><li>Home</li></a>
-                <a href=""><li>My Profiele</li></a>
-                <a href=""><li>SNS</li></a>
-                <a href=""><li>Contact/Works</li></a>
-            </ul>
+            <nav role="navigation" class="nav">
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span>Home</span></a>
+                    </li> 
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link"><span>SNS</span></a>
+                        <nav class="submenu">
+                            <ul class="submenu-items">
+                                <li class="submenu-item"><a href="#" class="submenu-link">Youtube</a></li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Twitter</a></li>
+                                <li class="submenu-item"><a href="#" class="submenu-link">Comming Soon...</a></li>
+                            </ul>
+                        </nav>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span>Profiele</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span>News</span></a>
+                    </li> 
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span>Contact</span></a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
     <p>Hallo World</p>
@@ -31,9 +52,13 @@
 
     </footer>
 </body>
-<script type="text/JavaScript">
-    if (window.matchMedia('()')) {
-        
+<script src="./JavaScript/header.js"></script>
+<script src="./JavaScript/main.js"></script>
+<style>
+    @media(max-width:480px){
+      header {
+      display:flex;
+      }
     }
-</script>
+    </style>
 </html>
