@@ -14,7 +14,9 @@ header{
     display: flex;
     background-color: rgb(255, 255, 255);
     .head01{
+
         img{
+            display: none;
             width: 350px;
             margin-top: 10px;
             margin-left: 25px;
@@ -204,29 +206,20 @@ header{
 @media screen and (max-width:480px){
     
     header{
-        display: block!important;
+        height: 49px;       
         .head01{
+            height: 20px;
             img{
                 margin-left: 0.1;
-                margin-top: 30px;
-                width: 80px;
+                width: 800px;
             }
         }
         .head02{
-            .nav {
-                width: 500px;
-            }
             .nav-items {
                 background-color: rgb(203, 203, 203);
-                margin-top: 17px;
                 padding: 0;
                 list-style: none;
             }
         }
-    }
-}
-@media(max-width:480px){
-    header{
-    display:flex;
     }
 }
